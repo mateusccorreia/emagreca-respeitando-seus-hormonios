@@ -392,7 +392,7 @@ function App() {
                   </div>
 
                   <div className="grid sm:grid-cols-3 gap-4">
-                    {finalBenefits.map((benefit, index) => (
+                    {finalBenefits.map((benefit) => (
                       <div key={benefit.text} className="flex items-start gap-3 p-4 rounded-xl bg-emerald-50 border border-emerald-200">
                         <div className="flex-shrink-0 text-emerald-600">
                           {benefit.icon}
