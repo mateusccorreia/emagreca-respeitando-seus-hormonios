@@ -5,9 +5,9 @@ type CTAButtonProps = {
 };
 
 export function CTAButton({
-  href = '#checkout',
-  label = '👉 Quero comprar o e-book agora',
-  className = '',
+  href = "#checkout",
+  label = "👉 Quero comprar o e-book agora",
+  className = "",
 }: CTAButtonProps) {
   return (
     <a
